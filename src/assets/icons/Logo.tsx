@@ -1,0 +1,24 @@
+import { Link } from "react-router";
+
+const Logo = () => {
+  return (
+    <Link to='/' className="flex items-center">
+      {/* <svg
+        width="40"
+        height="26"
+        viewBox="0 0 50 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M43 31L31 40H5L7 35L12 31H29L32 35L40 11L45 7H50L43 31ZM43 5L38 9H21L18 5L10 29L5 33H0L7 9L19 0H45L43 5ZM24 13H35L29 31L26 27H15L21 9L24 13Z"
+          fill="#297AFF"
+        ></path>
+      </svg> */}
+
+      <h4 className="text-2xl font-bold font-mono text-foreground"> <span className="text-primary">Campus</span>Loop</h4>
+    </Link>
+  );
+};
+
+export default Logo;
