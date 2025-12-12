@@ -70,3 +70,4 @@ cypress/screenshots/
 *.tsbuildinfo
 dist-ssr/
 *.local
+.vercel
